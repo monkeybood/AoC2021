@@ -41,6 +41,7 @@ public class Day2 {
 				
 			case "down":
 				this.aim+=distance;
+				break;
 			default:
 		}
 	}
