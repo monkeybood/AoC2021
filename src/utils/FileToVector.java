@@ -20,9 +20,7 @@ public class FileToVector {
 		String line = reader.readLine();
 			
 		while (line != null) {
-			if (!line.equals("")) {
-				result.add(line);
-			}
+			result.add(line);
 			line = reader.readLine();
 		}
 
